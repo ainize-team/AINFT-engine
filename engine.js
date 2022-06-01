@@ -14,7 +14,7 @@ async function tokenizer(str){
 
 async function API_request(ids){
   return await axios.post(
-    "https://train-rrm6nquw776trr2t0zih-gpt2-train-teachable-ainize.endpoint.ainize.ai/predictions/gpt-2-en-large-finetune"
+    "https://train-d5foczp5txn7m7bd3tyy-gpt2-train-teachable-ainize.endpoint.ainize.ai/predictions/gpt-2-en-large-finetune"
     , `{
   "text": ${JSON.stringify(ids)},
   "num_samples": 1,
